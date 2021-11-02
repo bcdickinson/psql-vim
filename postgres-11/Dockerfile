@@ -1,5 +1,5 @@
 FROM postgres:11
 
 RUN apt-get update && \
-    apt-get install -y vim && \
+    apt-get install -y vim less && \
     rm -rf /var/lib/apt/lists/*
